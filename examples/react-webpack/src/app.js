@@ -13,7 +13,7 @@ class App extends Component{
     }
     this.handleSearch = this.handleSearch.bind(this)
   }
-  
+
 
       ajax = (url) => {
         let promise = new Promise((resolve, reject) => {
@@ -93,8 +93,5 @@ class App extends Component{
     )
   }
 }
-
-
-
 
 export default App 
